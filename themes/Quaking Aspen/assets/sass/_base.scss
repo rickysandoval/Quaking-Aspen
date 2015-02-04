@@ -1,0 +1,54 @@
+@import 'normalize.scss';
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+// Variables
+$header-h: 70px;
+
+//Colors
+$main-accent: #8E1E21;
+$text-c: #090909;
+
+//Fonts
+$Arvo: 'Arvo', serif;
+$Open: 'Open Sans', helvetica, sans-serif;
+
+
+html {
+	height: 100%;
+	font-size: 16px;
+	color: #333;
+}
+body {
+	height: 100%;
+	font-size: 100%;	
+	line-height: 1.5em;
+	font-family: $Open;
+	background: url('../images/grey_wash_wall.png');
+	color: $text-c;
+}
+a {
+	text-decoration: none;
+	outline: none;
+	color: #AE7B2F;
+}
+p a, li a {
+	border-bottom: 1px dashed #AE7B2F;
+	&:hover {
+		color: $main-accent;
+		border-bottom: 1px solid $main-accent;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	margin-bottom: 15px;
+	font-size: 1em;
+}
+ul, h1, h2, h3, h4, h5, h6 {
+	margin: 0; padding: 0;
+}
+ul {
+	list-style-type: none;
+}

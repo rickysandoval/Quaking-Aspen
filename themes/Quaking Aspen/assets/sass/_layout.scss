@@ -1,0 +1,99 @@
+.contained {
+	margin: auto;
+}
+
+.wrapper {
+	min-height: 100vh;
+	height: auto;
+	margin: auto;
+	padding-bottom: 95px;
+	max-width: 1200px;
+	background: white;
+	position: relative;
+	margin-bottom: 58px;
+}
+
+.l-full, .l-max-960 {
+	margin: auto;
+	padding-left: .75em;
+	padding-right: .75em;
+	box-sizing: border-box;
+}
+.l-full {
+	width: 100%
+}
+.l-max-960{
+	max-width: 1000px;
+}
+
+.top-space {
+	margin-top: 25px;
+}
+.bottom-space {
+	margin-bottom: 35px;
+}
+
+.clear {
+	&:after {
+		content: " ";
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}
+p {
+	max-width: 760px;
+}
+.indent {
+	margin-left: 25px !important;
+}
+
+// Header
+.main-nav ul{
+}
+
+// Footer
+#page-footer {
+	height: 58px;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 1.5em;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: -58px;
+}
+.whole, .half, .quarter, .third, .threeQuarter, .twoThird {
+	display: inline-block;
+	margin-left: 25/1200 * 100%;
+	margin-bottom: 25/1200 * 100% * 2;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin-right: -4px;
+}
+.whole { 
+	width: 100%; 
+}
+.half {
+	width: (1175/2)/1200 * 100%;
+}
+.quarter {
+	width: (1125/4)/1200 * 100%;
+}
+.third {
+	width: (1150/3)/1200 * 100%;
+}
+.threeQuarter {
+	width: ((1125/4)*3)/1200 * 100%;
+}
+.twoThird{
+	width: ((1150/3)*2)/1200 * 100%;
+}
+.first { margin-left: 0;  }
+
+@media screen and (max-width: 650px){
+	.half {
+		width: 100%;
+	}
+}
