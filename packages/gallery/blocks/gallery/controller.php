@@ -36,10 +36,10 @@ class GalleryBlockController extends BlockController {
 	
 	//Caching is disabled while in development,
 	// but you should change these to TRUE for production.
-	protected $btCacheBlockRecord = false;
-	protected $btCacheBlockOutput = false;
-	protected $btCacheBlockOutputOnPost = false;
-	protected $btCacheBlockOutputForRegisteredUsers = false;
+	protected $btCacheBlockRecord = true;
+	protected $btCacheBlockOutput = true;
+	protected $btCacheBlockOutputOnPost = true;
+	protected $btCacheBlockOutputForRegisteredUsers = true;
 	protected $btCacheBlockOutputLifetime = CACHE_LIFETIME;
 
 /* DONE! You generally don't need to change anything below this line.

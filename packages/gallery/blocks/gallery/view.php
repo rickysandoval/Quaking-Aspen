@@ -67,7 +67,7 @@
 		<li class="mix fancybox-box <?php echo $cat; ?>">
 			<a class="fancybox" <?php if($img->description){ echo 'title="'.$img->description.'" '; }?>data-fancybox-group="gallery" data-rel="<?php echo $cat; ?>" href="<? echo $img->orig->src; ?>">
 			<div class="fancybox-hover" ></div>
-			<img src="<?php echo $img->orig->src; ?>" width="<?php echo $img->large->width; ?>" height="<?php echo $img->large->height; ?>" alt="" class="<?php echo ($img->large->width >= $img->large->height ? 'landscape' : 'portrait'); ?>"/>
+			<img src="<?php echo $img->large->src; ?>" width="<?php echo $img->large->width; ?>" height="<?php echo $img->large->height; ?>" alt="" class="<?php echo ($img->large->width >= $img->large->height ? 'landscape' : 'portrait'); ?>"/>
 			</a>
 			<p class="description"><?php echo $img->description; ?></p>
 		</li>
