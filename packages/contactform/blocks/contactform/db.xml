@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btContactForm">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		
+		<field name="successMessage" type="C" size="255">
+			<default value="" />
+		</field>
+		<field name="errorMessage" type="C" size="255">
+			<default value="" />
+		</field>
+		
+		<field name="recipentEmails" type="C" size="1000">
+			<default value="" />
+		</field>		
+	</table>
+</schema>

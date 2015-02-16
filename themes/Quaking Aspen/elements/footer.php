@@ -1,13 +1,11 @@
 <footer id="page-footer">
 		<div class="contained">
 			<div class="copyright">
-				&copy; 2014 by Quaking Aspen Outfitters
+				&copy; <?php echo date('Y'); ?> by Quaking Aspen Outfitters
 			</div>
+			<div class="login"><a href="<?php echo BASE_URL ?>/index.php/login">Admin Login</a></div>
 			<div class="social-icons">
-			<?
-				$a = new GlobalArea('Footer Social Icons');
-				$a->display();
-			?>
+			<a href="https://www.facebook.com/quakingaspenoutfitters"><i class="fa fa-facebook"></i></a>
 			</div>
 		</div>
 	</footer>

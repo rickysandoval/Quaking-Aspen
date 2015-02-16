@@ -63,7 +63,14 @@ p {
 	width: 100%;
 	box-sizing: border-box;
 	margin-bottom: -58px;
+	@media screen and (max-width: 445px){
+		height: auto;
+		line-height: 1.5em;
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
 }
+
 .whole, .half, .quarter, .third, .threeQuarter, .twoThird {
 	display: inline-block;
 	margin-left: 25/1200 * 100%;
