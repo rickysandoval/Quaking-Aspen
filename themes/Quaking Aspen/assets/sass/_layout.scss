@@ -90,6 +90,12 @@ p {
 }
 .third {
 	width: (1150/3)/1200 * 100%;
+	@media screen and (max-width: 975px){
+		width: (1175/2)/1200 * 100%;
+	}
+	@media screen and (max-width: 650px){
+		width: 100%;
+	}
 }
 .threeQuarter {
 	width: ((1125/4)*3)/1200 * 100%;

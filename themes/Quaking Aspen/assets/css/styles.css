@@ -473,6 +473,12 @@ p {
 
 .third {
   width: 31.9444444444%; }
+  @media screen and (max-width: 975px) {
+    .third {
+      width: 48.9583333333%; } }
+  @media screen and (max-width: 650px) {
+    .third {
+      width: 100%; } }
 
 .threeQuarter {
   width: 70.3125%; }
