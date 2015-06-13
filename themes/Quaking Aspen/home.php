@@ -6,7 +6,7 @@
 		$a->display($c);
 	?>
 		<div class="hero-text">
-		Welcome to Gunnision Country USA
+		Welcome to Gunnison Country USA
 		</div>
 		</div>
 	</div>

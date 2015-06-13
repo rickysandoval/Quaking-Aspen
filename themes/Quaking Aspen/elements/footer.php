@@ -17,9 +17,12 @@
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-59961417-1', 'auto');
+	  ga('create', 'UA-59961417-1', 'auto'); 
 	  ga('send', 'pageview');
 
 	</script>
+	<!--  MouseStats:Begin  -->
+	<script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("__mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="__mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/5/3/5313917248354626948.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+	<!--  MouseStats:End  -->
 	</body>
 </html>
